@@ -7,7 +7,7 @@ from langchain_core.output_parsers import JsonOutputParser
 from pydantic import BaseModel, Field
 from typing import List
 
-from .document_manager import DocumentManager
+from src.document_manager import DocumentManager
 
 load_dotenv()
 

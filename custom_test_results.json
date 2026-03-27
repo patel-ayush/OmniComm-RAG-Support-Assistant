@@ -4,7 +4,7 @@
     "category": "direct_lookup",
     "status": "PASS",
     "issues": [],
-    "answer_preview": "The Basic plan rate for calling Singapore is $0.05 per minute [kb_002]. Calls are billed per minute and rounded up to the next 30-second increment aft",
+    "answer_preview": "The Basic plan rate for calling Singapore is $0.05 per minute, effective 2026-01-01 [kb_002].",
     "sources": [
       "kb_002"
     ]
@@ -14,7 +14,7 @@
     "category": "multi_hop",
     "status": "PASS",
     "issues": [],
-    "answer_preview": "No, being abroad in Hong Kong will not change OmniComm's normal destination rate for your call to the Netherlands [kb_004]. On the Basic plan, calls to th",
+    "answer_preview": "No, you will not be charged more for calling the Netherlands from abroad if you are on the Basic plan. Toku charges the normal destination rate for th",
     "sources": [
       "kb_002",
       "kb_004"
@@ -25,7 +25,7 @@
     "category": "deprecated_handling",
     "status": "PASS",
     "issues": [],
-    "answer_preview": "The old 2025 Basic rate for Indonesia was $0.09 per minute [kb_019]. Please note that this rate is from a deprecated 2025 archive and has been superse",
+    "answer_preview": "The archived 2025 Basic plan rate for Indonesia was $0.09 per minute [kb_019]. This rate card is superseded and for historical reference only [kb_019]",
     "sources": [
       "kb_019"
     ]
@@ -64,7 +64,7 @@
     "category": "multi_hop_troubleshooting",
     "status": "PASS",
     "issues": [],
-    "answer_preview": "If your calls are disconnecting after exactly 120 seconds (2 minutes), you should investigate SIP session refresh behavior and firewall or NAT UDP tim",
+    "answer_preview": "If your calls are disconnecting after exactly 120 seconds (2 minutes) and you are using a corporate firewall, you should first inspect SIP session ref",
     "sources": [
       "kb_013",
       "kb_014"
@@ -75,7 +75,7 @@
     "category": "multi_hop_billing",
     "status": "PASS",
     "issues": [],
-    "answer_preview": "If you believe you've been double-charged, especially if two charges appear for the same call_id or message_id within 24 hours, please provide the inv",
+    "answer_preview": "If you were double-charged, please provide the invoice ID or account ID, the date and time of the event, the destination number, and the affected call",
     "sources": [
       "kb_006",
       "kb_007"
@@ -86,7 +86,7 @@
     "category": "enterprise_abstention",
     "status": "PASS",
     "issues": [],
-    "answer_preview": "As an Enterprise customer, your per-minute rate for Indonesia is contract-specific [kb_001, kb_003]. Enterprise pricing is usually determined by your ",
+    "answer_preview": "As an Enterprise customer, your per-minute rate for Indonesia depends on your specific contract terms [kb_001, kb_003]. Enterprise pricing is usually ",
     "sources": [
       "kb_001",
       "kb_003"
@@ -105,7 +105,7 @@
     "category": "multi_hop_sla",
     "status": "PASS",
     "issues": [],
-    "answer_preview": "If you are on the Pro plan, your target first response time is within 4 business hours for business-hours support [kb_009]. The context specifies a 30",
+    "answer_preview": "If you are on the Pro plan and experience a P1 outage, your target first response time is within 4 business hours, as Pro customers receive business-h",
     "sources": [
       "kb_009"
     ]
@@ -115,7 +115,7 @@
     "category": "temporal_account",
     "status": "PASS",
     "issues": [],
-    "answer_preview": "If your account was suspended due to suspicious activity, restoration can take up to 24 hours even after payment has been made, as it requires a manua",
+    "answer_preview": "If your account was suspended due to suspicious activity, restoration can take up to 24 hours even after payment is made, as it requires manual review",
     "sources": [
       "kb_008"
     ]

@@ -111,7 +111,6 @@ Results across all 15 evaluation queries:
 | Metric | Score |
 |---|---|
 | **Faithfulness** | **0.93** (avg) — 12/15 queries scored 1.0 |
-| **Answer Relevancy** | **0.93** (avg) — high relevance across queries |
 
 The one lower faithfulness score (0.33) was on a multi-source citation question where the model correctly identified the answer but Ragas penalized a minor attribution nuance. Full per-query results are in `evaluation_results.csv`.
 

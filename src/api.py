@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from typing import List
 import os
-from .rag_chain import get_rag_chain
+from src.rag_chain import get_rag_chain
 
 app = FastAPI(title="OmniComm AI Support API")
 
