@@ -1,0 +1,10 @@
+langchain
+langchain-google-genai
+langchain-huggingface
+chromadb
+ragas
+fastapi
+uvicorn
+datasets
+python-dotenv
+pydantic

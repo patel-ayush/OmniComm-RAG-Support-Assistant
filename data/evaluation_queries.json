@@ -1,0 +1,155 @@
+[
+  {
+    "id": "q_001",
+    "question": "How much does it cost to call Indonesia?",
+    "intent_type": "direct_lookup_with_ambiguity",
+    "difficulty": "easy",
+    "should_abstain": false,
+    "primary_categories": [
+      "pricing"
+    ]
+  },
+  {
+    "id": "q_002",
+    "question": "I'm on the Pro plan and travelling in Singapore. Can I still use the service to call US numbers, and what extra charges should I expect?",
+    "intent_type": "multi_hop",
+    "difficulty": "medium",
+    "should_abstain": false,
+    "primary_categories": [
+      "pricing",
+      "usage"
+    ]
+  },
+  {
+    "id": "q_003",
+    "question": "Our calls drop almost exactly at the 2-minute mark when going through our office firewall. What should we check first?",
+    "intent_type": "multi_hop_troubleshooting",
+    "difficulty": "medium",
+    "should_abstain": false,
+    "primary_categories": [
+      "troubleshooting",
+      "technical"
+    ]
+  },
+  {
+    "id": "q_004",
+    "question": "I was charged twice for the same call yesterday. What information do you need from me, and how long would a refund take if it is confirmed?",
+    "intent_type": "multi_hop",
+    "difficulty": "medium",
+    "should_abstain": false,
+    "primary_categories": [
+      "billing"
+    ]
+  },
+  {
+    "id": "q_005",
+    "question": "We hit 429s during a launch at around 120 requests per second. What is the rate limit, and what should we do right now?",
+    "intent_type": "technical_guidance",
+    "difficulty": "easy",
+    "should_abstain": false,
+    "primary_categories": [
+      "technical"
+    ]
+  },
+  {
+    "id": "q_006",
+    "question": "Our SMS to Indonesian users are arriving late in the evening. What are the likely causes and what should we verify first?",
+    "intent_type": "troubleshooting",
+    "difficulty": "medium",
+    "should_abstain": false,
+    "primary_categories": [
+      "troubleshooting"
+    ]
+  },
+  {
+    "id": "q_007",
+    "question": "How long do WhatsApp template approvals usually take, and when is a template required?",
+    "intent_type": "direct_lookup",
+    "difficulty": "easy",
+    "should_abstain": false,
+    "primary_categories": [
+      "messaging"
+    ]
+  },
+  {
+    "id": "q_008",
+    "question": "How long are call transcripts kept, and can summaries be turned off without deleting old ones?",
+    "intent_type": "direct_lookup",
+    "difficulty": "medium",
+    "should_abstain": false,
+    "primary_categories": [
+      "ai-features"
+    ]
+  },
+  {
+    "id": "q_009",
+    "question": "Can the platform call emergency services or satellite phones?",
+    "intent_type": "policy_check",
+    "difficulty": "easy",
+    "should_abstain": false,
+    "primary_categories": [
+      "policy"
+    ]
+  },
+  {
+    "id": "q_010",
+    "question": "I saw a document saying Indonesia calls are $0.09 per minute on Basic. Is that still current?",
+    "intent_type": "deprecated_doc_handling",
+    "difficulty": "medium",
+    "should_abstain": false,
+    "primary_categories": [
+      "pricing"
+    ]
+  },
+  {
+    "id": "q_011",
+    "question": "Our Indonesia number order has been pending for 7 business days. Is that normal?",
+    "intent_type": "operations_lookup",
+    "difficulty": "easy",
+    "should_abstain": false,
+    "primary_categories": [
+      "operations"
+    ]
+  },
+  {
+    "id": "q_012",
+    "question": "We were suspended for non-payment and just paid by bank transfer. When should service come back?",
+    "intent_type": "account_lookup",
+    "difficulty": "easy",
+    "should_abstain": false,
+    "primary_categories": [
+      "account"
+    ]
+  },
+  {
+    "id": "q_013",
+    "question": "If a major incident affected us last month, can we ask for a credit and by when?",
+    "intent_type": "multi_hop_policy",
+    "difficulty": "medium",
+    "should_abstain": false,
+    "primary_categories": [
+      "support",
+      "billing"
+    ]
+  },
+  {
+    "id": "q_014",
+    "question": "How many times are webhooks retried, and do they count toward the API rate limit?",
+    "intent_type": "multi_hop",
+    "difficulty": "medium",
+    "should_abstain": false,
+    "primary_categories": [
+      "technical"
+    ]
+  },
+  {
+    "id": "q_015",
+    "question": "Do you support RCS messaging in Japan?",
+    "intent_type": "abstain",
+    "difficulty": "medium",
+    "should_abstain": true,
+    "primary_categories": [
+      "messaging"
+    ]
+  }
+]

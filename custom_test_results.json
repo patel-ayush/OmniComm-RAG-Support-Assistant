@@ -1,0 +1,123 @@
+[
+  {
+    "id": "custom_001",
+    "category": "direct_lookup",
+    "status": "PASS",
+    "issues": [],
+    "answer_preview": "The Basic plan rate for calling Singapore is $0.05 per minute [kb_002]. Calls are billed per minute and rounded up to the next 30-second increment aft",
+    "sources": [
+      "kb_002"
+    ]
+  },
+  {
+    "id": "custom_002",
+    "category": "multi_hop",
+    "status": "PASS",
+    "issues": [],
+    "answer_preview": "No, being abroad in Hong Kong will not change OmniComm's normal destination rate for your call to the Netherlands [kb_004]. On the Basic plan, calls to th",
+    "sources": [
+      "kb_002",
+      "kb_004"
+    ]
+  },
+  {
+    "id": "custom_003",
+    "category": "deprecated_handling",
+    "status": "PASS",
+    "issues": [],
+    "answer_preview": "The old 2025 Basic rate for Indonesia was $0.09 per minute [kb_019]. Please note that this rate is from a deprecated 2025 archive and has been superse",
+    "sources": [
+      "kb_019"
+    ]
+  },
+  {
+    "id": "custom_004",
+    "category": "deprecated_vs_active",
+    "status": "PASS",
+    "issues": [],
+    "answer_preview": "The current default REST API limit is 100 requests per second per account [kb_011]. The previous limit of 60 requests per second is deprecated [kb_020",
+    "sources": [
+      "kb_011",
+      "kb_020"
+    ]
+  },
+  {
+    "id": "custom_005",
+    "category": "policy_enforcement",
+    "status": "PASS",
+    "issues": [],
+    "answer_preview": "The platform does not support calls to emergency services [kb_005].",
+    "sources": [
+      "kb_005"
+    ]
+  },
+  {
+    "id": "custom_006",
+    "category": "abstention",
+    "status": "PASS",
+    "issues": [],
+    "answer_preview": "I don't have enough information to answer this based on the current knowledge base.",
+    "sources": []
+  },
+  {
+    "id": "custom_007",
+    "category": "multi_hop_troubleshooting",
+    "status": "PASS",
+    "issues": [],
+    "answer_preview": "If your calls are disconnecting after exactly 120 seconds (2 minutes), you should investigate SIP session refresh behavior and firewall or NAT UDP tim",
+    "sources": [
+      "kb_013",
+      "kb_014"
+    ]
+  },
+  {
+    "id": "custom_008",
+    "category": "multi_hop_billing",
+    "status": "PASS",
+    "issues": [],
+    "answer_preview": "If you believe you've been double-charged, especially if two charges appear for the same call_id or message_id within 24 hours, please provide the inv",
+    "sources": [
+      "kb_006",
+      "kb_007"
+    ]
+  },
+  {
+    "id": "custom_009",
+    "category": "enterprise_abstention",
+    "status": "PASS",
+    "issues": [],
+    "answer_preview": "As an Enterprise customer, your per-minute rate for Indonesia is contract-specific [kb_001, kb_003]. Enterprise pricing is usually determined by your ",
+    "sources": [
+      "kb_001",
+      "kb_003"
+    ]
+  },
+  {
+    "id": "custom_010",
+    "category": "adversarial_hallucination",
+    "status": "PASS",
+    "issues": [],
+    "answer_preview": "I don't have enough information to answer this based on the current knowledge base.",
+    "sources": []
+  },
+  {
+    "id": "custom_011",
+    "category": "multi_hop_sla",
+    "status": "PASS",
+    "issues": [],
+    "answer_preview": "If you are on the Pro plan, your target first response time is within 4 business hours for business-hours support [kb_009]. The context specifies a 30",
+    "sources": [
+      "kb_009"
+    ]
+  },
+  {
+    "id": "custom_012",
+    "category": "temporal_account",
+    "status": "PASS",
+    "issues": [],
+    "answer_preview": "If your account was suspended due to suspicious activity, restoration can take up to 24 hours even after payment has been made, as it requires a manua",
+    "sources": [
+      "kb_008"
+    ]
+  }
+]

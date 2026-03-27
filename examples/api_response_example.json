@@ -1,0 +1,7 @@
+{
+  "answer": "Calls that drop at a fixed interval like 2 minutes usually point to SIP session refresh or firewall timeout issues rather than random carrier instability. Check SIP session refresh behavior, disable SIP ALG if enabled, and increase the firewall UDP timeout to at least 180 seconds. Also confirm that RTP UDP ports 10000-20000 and SIP ports 5060/5061 are allowed.",
+  "sources": [
+    "kb_013",
+    "kb_014"
+  ]
+}

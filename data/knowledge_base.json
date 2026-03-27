@@ -1,0 +1,315 @@
+[
+  {
+    "id": "kb_001",
+    "title": "Workspace plans overview",
+    "category": "plans",
+    "status": "active",
+    "last_updated": "2026-01-15",
+    "content": "OmniComm offers three main workspace plans: Basic, Pro, and Enterprise. Basic includes standard voice and messaging features, shared support, and public rate-card pricing. Pro includes discounted international voice pricing, call summaries, and faster support. Enterprise includes custom rate cards, SSO, optional dedicated throughput, and 24/7 incident response.\n\nUnless a signed order form says otherwise, support agents should use the public rate card for Basic and Pro. Enterprise customers may have contract-specific rates and limits, so the assistant should avoid inventing flat Enterprise prices.",
+    "tags": [
+      "plans",
+      "pricing",
+      "support"
+    ]
+  },
+  {
+    "id": "kb_002",
+    "title": "Public voice rates - Basic plan (effective 2026)",
+    "category": "pricing",
+    "status": "active",
+    "last_updated": "2026-01-01",
+    "content": "Basic plan outbound voice rates effective 2026-01-01: Indonesia $0.12 per minute, Singapore $0.05 per minute, United States $0.08 per minute, Hong Kong $0.07 per minute, Netherlands $0.06 per minute.\n\nRates exclude any taxes or external carrier surcharges. Calls are billed per minute and rounded up to the next 30-second increment after the first minute.",
+    "tags": [
+      "pricing",
+      "voice",
+      "basic"
+    ]
+  },
+  {
+    "id": "kb_003",
+    "title": "Public voice rates - Pro and Enterprise guidance (effective 2026)",
+    "category": "pricing",
+    "status": "active",
+    "last_updated": "2026-01-01",
+    "content": "Pro plan outbound voice rates effective 2026-01-01: Indonesia $0.09 per minute, Singapore $0.04 per minute, United States $0.06 per minute, Hong Kong $0.05 per minute, Netherlands $0.05 per minute.\n\nEnterprise pricing is usually contract-specific and often 10% to 20% below the Pro public rate card. If an Enterprise customer asks for a price and their individual rate card is not available in the knowledge base, the assistant should say that pricing depends on contract terms.",
+    "tags": [
+      "pricing",
+      "voice",
+      "pro",
+      "enterprise"
+    ]
+  },
+  {
+    "id": "kb_004",
+    "title": "Roaming and international usage",
+    "category": "usage",
+    "status": "active",
+    "last_updated": "2026-01-09",
+    "content": "Customers can use the service while travelling if roaming or international use is enabled for the workspace and local regulations permit it. OmniComm still charges the normal destination rate for the call or message. Separate data-roaming or local carrier charges may apply through the customer's mobile or internet provider.\n\nFor browser or softphone usage abroad, a stable internet connection is essential. Roaming does not change support SLAs or API rate limits.",
+    "tags": [
+      "roaming",
+      "travel",
+      "international"
+    ]
+  },
+  {
+    "id": "kb_005",
+    "title": "Unsupported destination and number types",
+    "category": "policy",
+    "status": "active",
+    "last_updated": "2025-12-11",
+    "content": "The platform does not support calls to emergency services, premium-rate numbers, short codes, or satellite phones. If a requested destination is unsupported, the assistant should say so clearly and should not suggest unsupported workarounds.\n\nHigh-volume campaign calling to some countries may require compliance review before activation.",
+    "tags": [
+      "policy",
+      "restrictions",
+      "voice"
+    ]
+  },
+  {
+    "id": "kb_006",
+    "title": "Billing disputes and duplicate charge workflow",
+    "category": "billing",
+    "status": "active",
+    "last_updated": "2026-02-02",
+    "content": "If two charges appear for the same call_id or message_id within 24 hours, treat the issue as a possible duplicate charge. Ask for the invoice ID or account ID, the date and time of the event, the destination number, and the affected call IDs or message IDs.\n\nBilling disputes should be opened within 30 days of the invoice date. Clear duplicate charges can be reversed; otherwise support should open an investigation with billing operations.",
+    "tags": [
+      "billing",
+      "duplicate charge",
+      "refund"
+    ]
+  },
+  {
+    "id": "kb_007",
+    "title": "Refunds, credits, and failed service policy",
+    "category": "billing",
+    "status": "active",
+    "last_updated": "2026-01-28",
+    "content": "Refunds or credits apply to confirmed billing errors and failed platform services. Standard refund processing takes 5 to 7 business days after validation.\n\nCarrier rejections caused by invalid numbers, blocked destinations, or customer misconfiguration are not automatically refundable. For major service incidents, customers may be eligible for service credits under the uptime policy rather than per-call refunds.",
+    "tags": [
+      "refunds",
+      "credits",
+      "billing"
+    ]
+  },
+  {
+    "id": "kb_008",
+    "title": "Account suspension and restoration",
+    "category": "account",
+    "status": "active",
+    "last_updated": "2026-02-14",
+    "content": "Accounts that are more than 14 days past due may have outbound traffic suspended. After successful card payment, access is usually restored automatically within 2 hours. Bank transfer or manual reconciliation can take up to 1 business day after funds are received.\n\nSuspensions triggered by suspicious activity require manual review and can take up to 24 hours even after payment is made.",
+    "tags": [
+      "account",
+      "suspension",
+      "payments"
+    ]
+  },
+  {
+    "id": "kb_009",
+    "title": "Support channels and response SLAs",
+    "category": "support",
+    "status": "active",
+    "last_updated": "2026-01-12",
+    "content": "Basic customers receive email support with a target first response within 1 business day. Pro customers receive business-hours support with a target first response within 4 business hours. Enterprise customers receive 24/7 support for P1 incidents with a target first response within 30 minutes.\n\nEscalations related to outages, fraud, or suspended production traffic should be marked clearly in the support ticket.",
+    "tags": [
+      "support",
+      "sla",
+      "response time"
+    ]
+  },
+  {
+    "id": "kb_010",
+    "title": "Number provisioning lead times",
+    "category": "operations",
+    "status": "active",
+    "last_updated": "2025-12-18",
+    "content": "Typical provisioning lead times are: Singapore 1 to 3 business days, Netherlands 3 to 5 business days, and Indonesia 5 to 10 business days. Porting requests can take 2 to 6 weeks depending on the losing carrier.\n\nIndonesia number orders may require business registration and local address documentation before provisioning starts.",
+    "tags": [
+      "numbers",
+      "provisioning",
+      "lead times"
+    ]
+  },
+  {
+    "id": "kb_011",
+    "title": "API rate limits and burst handling",
+    "category": "technical",
+    "status": "active",
+    "last_updated": "2026-02-10",
+    "content": "The default REST API limit is 100 requests per second per account. Short bursts up to 120 requests per second are tolerated for up to 30 seconds. Sustained traffic above the limit will return HTTP 429 throttling responses.\n\nRecommended mitigation: batch work where possible, queue requests, implement exponential backoff with jitter, and contact support if you need a sustained higher throughput tier. Webhook deliveries do not count toward the REST API rate limit.",
+    "tags": [
+      "api",
+      "rate limits",
+      "throttling"
+    ]
+  },
+  {
+    "id": "kb_012",
+    "title": "Webhook delivery and retry policy",
+    "category": "technical",
+    "status": "active",
+    "last_updated": "2025-11-30",
+    "content": "Webhook deliveries are retried up to five times over approximately 15 minutes when the receiving endpoint returns a non-2xx response or times out. Use idempotency on the receiving side because retries can produce duplicate event deliveries.\n\nWebhook events are signed with an HMAC header and should be verified before processing.",
+    "tags": [
+      "webhooks",
+      "retries",
+      "technical"
+    ]
+  },
+  {
+    "id": "kb_013",
+    "title": "Voice quality and dropped call troubleshooting",
+    "category": "troubleshooting",
+    "status": "active",
+    "last_updated": "2026-02-05",
+    "content": "Dropped calls are commonly caused by unstable connectivity, packet loss above 3%, jitter above 30 ms, SIP session timer mismatch, or network devices closing RTP traffic too aggressively.\n\nIf calls fail or drop at a fixed interval such as exactly 120 seconds, first inspect SIP session refresh behavior and firewall or NAT UDP timeout settings. This pattern is more consistent with session expiry than random carrier instability.",
+    "tags": [
+      "voice",
+      "troubleshooting",
+      "call drops"
+    ]
+  },
+  {
+    "id": "kb_014",
+    "title": "SIP and firewall checklist",
+    "category": "technical",
+    "status": "active",
+    "last_updated": "2026-01-22",
+    "content": "For SIP trunking and softphone traffic, allow SIP on ports 5060 or 5061 and open RTP UDP ports 10000 to 20000. Disable SIP ALG where possible, and increase firewall UDP timeout to at least 180 seconds.\n\nSupported codecs include G.711 and G.729. Incorrect codec negotiation, blocked RTP ranges, or short UDP timeout values can cause one-way audio or dropped calls.",
+    "tags": [
+      "sip",
+      "firewall",
+      "rtp"
+    ]
+  },
+  {
+    "id": "kb_015",
+    "title": "SMS delivery delays and filtering",
+    "category": "troubleshooting",
+    "status": "active",
+    "last_updated": "2026-02-07",
+    "content": "SMS delivery delays can happen because of carrier filtering, invalid E.164 formatting, unregistered sender IDs, or temporary network congestion. Check delivery receipts before resending large batches.\n\nFor Indonesia, promotional traffic may be slower during evening peak periods. Transactional traffic should use an approved sender ID or verified route where available.",
+    "tags": [
+      "sms",
+      "delivery",
+      "indonesia"
+    ]
+  },
+  {
+    "id": "kb_016",
+    "title": "WhatsApp templates and messaging windows",
+    "category": "messaging",
+    "status": "active",
+    "last_updated": "2026-01-19",
+    "content": "WhatsApp template approvals usually take 1 to 2 business days. Templates are commonly rejected for promotional wording, unsupported variables, or missing policy context.\n\nAfter the 24-hour customer care window closes, outbound WhatsApp messages require an approved template.",
+    "tags": [
+      "whatsapp",
+      "templates",
+      "sla"
+    ]
+  },
+  {
+    "id": "kb_017",
+    "title": "Transcript and summary retention",
+    "category": "ai-features",
+    "status": "active",
+    "last_updated": "2026-02-01",
+    "content": "Call transcripts are retained for 90 days on Basic and Pro workspaces and 180 days on Enterprise by default. AI-generated call summaries can be disabled at the workspace level.\n\nIf summaries are disabled, new summaries stop being generated, but existing summaries remain visible until the normal retention period ends or a deletion request is processed.",
+    "tags": [
+      "transcripts",
+      "summaries",
+      "retention"
+    ]
+  },
+  {
+    "id": "kb_018",
+    "title": "Transcription quality limitations",
+    "category": "ai-features",
+    "status": "active",
+    "last_updated": "2025-12-03",
+    "content": "Transcription quality can degrade with strong background noise, overlapping speakers, mixed-language conversations, poor microphone setup, or heavy accents. Generated transcripts are helpful for search and summaries but should not be treated as the sole compliance record.",
+    "tags": [
+      "transcription",
+      "limitations",
+      "quality"
+    ]
+  },
+  {
+    "id": "kb_019",
+    "title": "2025 voice rate archive - superseded",
+    "category": "pricing",
+    "status": "deprecated",
+    "last_updated": "2025-06-01",
+    "content": "Archived 2025 public rate card for historical reference only. Basic plan rates included Indonesia $0.09 per minute, Singapore $0.04 per minute, and United States $0.07 per minute.\n\nThis article was superseded by the 2026 public rate card. It must not be used for live customer quotes.",
+    "tags": [
+      "pricing",
+      "deprecated",
+      "archive"
+    ]
+  },
+  {
+    "id": "kb_020",
+    "title": "Legacy API limit note - superseded",
+    "category": "technical",
+    "status": "deprecated",
+    "last_updated": "2025-04-17",
+    "content": "Old internal note: default API throughput was 60 requests per second per account. This note is deprecated and replaced by the current API rate-limit policy.",
+    "tags": [
+      "api",
+      "deprecated",
+      "legacy"
+    ]
+  },
+  {
+    "id": "kb_021",
+    "title": "Data export and deletion requests",
+    "category": "data",
+    "status": "active",
+    "last_updated": "2026-01-05",
+    "content": "Workspace admins can request transcript exports through support. Standard export requests are fulfilled within 3 business days. Deletion requests are processed within 30 days and deleted transcripts cannot be recovered afterward.",
+    "tags": [
+      "data",
+      "export",
+      "deletion"
+    ]
+  },
+  {
+    "id": "kb_022",
+    "title": "Incident communication and uptime credits",
+    "category": "support",
+    "status": "active",
+    "last_updated": "2026-02-11",
+    "content": "For confirmed P1 incidents, status updates are sent every 30 minutes until the incident is mitigated. A written root cause analysis is normally delivered within 5 business days.\n\nCustomers who believe they are eligible for uptime credits should submit the request within 30 days after the end of the affected billing month.",
+    "tags": [
+      "incident",
+      "credits",
+      "sla"
+    ]
+  },
+  {
+    "id": "kb_023",
+    "title": "Browser calling network recommendations",
+    "category": "technical",
+    "status": "active",
+    "last_updated": "2025-12-20",
+    "content": "For browser-based calling, recommend a stable wired or high-quality Wi-Fi connection, at least 100 kbps of available bandwidth per stream, and minimal packet loss. Corporate VPNs and traffic inspection proxies can introduce jitter and RTP interruption.",
+    "tags": [
+      "browser calling",
+      "network",
+      "voice"
+    ]
+  },
+  {
+    "id": "kb_024",
+    "title": "Quarterly release notes - dashboard improvements",
+    "category": "release-notes",
+    "status": "active",
+    "last_updated": "2026-01-31",
+    "content": "This quarter's release introduced dashboard filter improvements, an updated queue monitor, and a refreshed analytics home page. No pricing, support SLA, or routing policy changes were made in this release.",
+    "tags": [
+      "release notes",
+      "dashboard",
+      "ui"
+    ]
+  }
+]
